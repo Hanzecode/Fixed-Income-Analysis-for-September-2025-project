@@ -1,20 +1,21 @@
 Data source: https://uk.investing.com/rates-bonds/uk-1-month-bond-yield-historical-data
 
-Fixed-Income Analysis (September 2025)
+# Fixed-Income Analysis (September 2025)
 
 Analysis of global government-bond yield data and fixed-income trends using Python and Jupyter Notebook.
 
-📄 Project Purpose
+### 📄 Project Purpose
 
 This project analyses historical yield data for multiple countries (e.g. UK, US, Japan, China) and fixed-income securities to explore interest rate trends, yield-curve behavior, and perform basic fixed-income market evaluation. The analyses illustrate cash-flow discounting, bond-valuation logic, and yield-curve comparisons across markets — helping users understand fixed-income risks and returns.
 
-📂 Repository Contents
+### 📂 Repository Contents
 File / Dataset	Content / Purpose
 fixed_income.ipynb	Main Jupyter Notebook: loads yield data, computes metrics, visualises trends across fixed-income markets.
 United Kingdom 10-Year Bond Yield Historical Data.csv, United States 10-Year Bond Yield Historical Data.csv, etc.	Historical yield datasets for various markets used in the analyses.
 Other yield-history CSV files (e.g. Japan, China, TIPs, STIP, IEF)	Additional datasets supporting cross-market and asset-class comparison.
 README.md (this file)	Overview and instructions.
-🔧 What the Notebook Does / Key Features
+
+### 🔧 What the Notebook Does / Key Features
 
 Loads historical bond-yield data from multiple countries and instruments.
 
@@ -26,7 +27,7 @@ Provides charts and summary statistics to facilitate understanding of interest r
 
 Enables cross-market comparison: e.g. comparing yields in UK vs US vs Japan, highlighting differences in interest rate regimes.
 
-🚀 How to Use / Run
+### 🚀 How to Use / Run
 
 Clone or download the repository.
 
@@ -36,7 +37,7 @@ Open and run fixed_income.ipynb in Jupyter Notebook or JupyterLab; this will loa
 
 Optionally, replace or extend datasets if you have more recent or alternative bond-yield data, to refresh or expand analyses.
 
-⚠️ Notes & Assumptions
+### ⚠️ Notes & Assumptions
 
 The project focuses on sovereign/government bond yields — corporate bonds and credit risk analysis are not included.
 
@@ -44,7 +45,7 @@ Valuation is simplified using standard discount-cashflow approaches and yield-cu
 
 Results depend on data quality and completeness of historical yield datasets.
 
-🛠️ Possible Extensions
+### 🛠️ Possible Extensions
 
 Include corporate bond data — compute yield spreads, credit-risk analysis.
 
@@ -56,11 +57,11 @@ Automate data retrieval (e.g. via APIs) for regular updates.
 
 Integrate fixed-income attribution: decompose total return into coupon income, roll-down yield, yield-curve changes, credit spread changes, etc. 
 
-📌 Summary
+### 📌 Summary
 
 This repository offers a straightforward, educational fixed-income analysis toolkit: combining real-world yield data, basic valuation logic, cross-market comparisons, and visual outputs in an easy-to-understand notebook. It is ideal for learning fixed-income concepts, performing market comparisons, or preparing a foundational framework for more advanced fixed-income research.
 
-📄 References
+### 📄 References
 
 Fixed-income analysis principles: cash-flow discounting, yield-curve valuation, risk vs. return trade-offs. 
 
